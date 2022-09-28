@@ -41,6 +41,7 @@ public:
                tail = tail->next ;  
                tail ->next = NULL ;
              }
+            
             l1 = l1 ? l1->next : nullptr;
             l2 = l2 ? l2->next : nullptr;
         }
